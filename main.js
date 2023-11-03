@@ -29,7 +29,7 @@ function toggleMobileMenu(){
 // - - - - - -  CARRITO DE COMPRAS   - - - - - - // 
 
 const menuCarritoIcon = document.querySelector('.navbar-shopping-cart');
-const menuCarrito = document.querySelector('.product-detail');
+const menuCarrito = document.querySelector('.product-detail-overflow');
 
 menuCarritoIcon.addEventListener('click', toggleCc);
 
